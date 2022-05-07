@@ -1,1 +1,20 @@
+﻿using System;
 
+namespace _01._USD_to_BGN
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            double dol = double.Parse(Console.ReadLine());
+            Console.WriteLine(dol*1.79549);
+
+
+
+
+
+
+        }
+    }
+}
